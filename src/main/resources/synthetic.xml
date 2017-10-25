@@ -14,4 +14,10 @@
 <synthetic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic">
 
+    <type type="extxlrelease.SourceVariablesFromJson" extends="xlrelease.PythonScript">
+        <property name="pathToParamsJson" category="input"/>
+        <property name="gitServer" kind="ci" referenced-type="git.Repository" category="input" />
+
+    </type>
+
 </synthetic>

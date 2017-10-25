@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "local_IP_range": {
+      "value": "10.196.0.0/23"
+    },
+    "nonroutable_IP_range": {
+      "value": "10.196.128.0/24"
+    },
+    "managementservices_subnet_local_IP_range": {
+      "value": "10.196.0.0/24"
+    },
+    "managementcore_subnet_local_IP_range": {
+      "value": "10.196.1.0/24"
+    },
+    "gateway_subnet_local_IP_range": {
+      "value": "10.196.2.0/27"
+    },
+    "bool123": {
+      "value": true
+    },
+    "list123": {
+      "value": [{"a": "123"}, {"a": "456"}]
+    }
+  }
+}
